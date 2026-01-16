@@ -1,0 +1,20 @@
+name: SafeStar AI Guardrails
+
+on: [pull_request]
+
+jobs:
+  check-behavior:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      # 1. Install Your Tool
+      - name: Install SafeStar
+        run: npm install -g safestar # (Once you publish it)
+        
+      # 2. Run the User's AI Code + SafeStar
+      - name: Run Behavior Checks
+        run: safestar diff scenarios/refund.yaml
+        
+      # 3. If "safestar diff" finds drift, it returns exit code 1
+      #    This automatically BLOCKS the Pull Request. 🛑

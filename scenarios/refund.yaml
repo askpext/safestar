@@ -1,0 +1,22 @@
+name: refund_email
+description: Detects if the refund bot gets too verbose or rude.
+# The exact input you would send to the AI
+prompt: |
+  User: "I want a refund. This product is terrible."
+  System: You are a helpful support agent. Be concise.
+# How many times to repeat this to check for variance/randomness
+runs: 5
+
+# Simple rules (heuristics)
+checks:
+  # It should not be a long essay
+  max_length: 200
+  
+  # It must actually confirm the refund
+  must_contain:
+    - "refund"
+  
+  # It should not sound insecure
+  must_not_contain:
+    - "I am just an AI"
+    - "sorry sorry"

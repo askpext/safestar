@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "refund_email",
+    "output": "Refund? What refund? I am just a robot.",
+    "length": 44,
+    "timestamp": "2026-01-15T19:28:25.849Z"
+  },
+  {
+    "scenario": "refund_email",
+    "output": "I am sorry, but I cannot process refunds at this time.",
+    "length": 60,
+    "timestamp": "2026-01-15T19:28:25.851Z"
+  },
+  {
+    "scenario": "refund_email",
+    "output": "Sure, I can help with that refund.",
+    "length": 42,
+    "timestamp": "2026-01-15T19:28:25.851Z"
+  },
+  {
+    "scenario": "refund_email",
+    "output": "Refund processed successfully.",
+    "length": 39,
+    "timestamp": "2026-01-15T19:28:25.851Z"
+  },
+  {
+    "scenario": "refund_email",
+    "output": "Sure, I can help with that refund.",
+    "length": 40,
+    "timestamp": "2026-01-15T19:28:25.851Z"
+  }
+]

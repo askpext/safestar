@@ -1,0 +1,43 @@
+{
+  "name": "safestar",
+  "version": "1.1.0",
+  "description": "Snapshot, version, and diff AI behavior over time.",
+  "main": "dist/index.js",
+  "bin": {
+    "safestar": "./dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "testing",
+    "drift",
+    "snapshot",
+    "cli"
+  ],
+  "author": "Aditya Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "@types/glob": "^8.1.0",
+    "@types/js-yaml": "^4.0.9"
+  }
+}
