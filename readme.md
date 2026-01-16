@@ -8,6 +8,8 @@
   <a href="https://www.npmjs.com/package/safestar"><img src="https://img.shields.io/npm/v/safestar.svg" alt="npm version"></a>
   <a href="https://github.com/your-username/safestar/actions"><img src="https://github.com/your-username/safestar/workflows/AI%20Guardrails/badge.svg" alt="Build Status"></a>
   <a href="https://opensource.org/licenses/ISC"><img src="https://img.shields.io/badge/License-ISC-blue.svg" alt="License: ISC"></a>
+  ![Neubrutalist_conceptual_illustration_2026011 (2)](https://github.com/user-attachments/assets/ab9b8d3a-b0ed-4596-99cb-a71d7c8802d4)
+
 </p>
 
 ---
