@@ -8,13 +8,13 @@
   <a href="https://www.npmjs.com/package/safestar"><img src="https://img.shields.io/npm/v/safestar.svg" alt="npm version"></a>
   <a href="https://github.com/your-username/safestar/actions"><img src="https://github.com/your-username/safestar/workflows/AI%20Guardrails/badge.svg" alt="Build Status"></a>
   <a href="https://opensource.org/licenses/ISC"><img src="https://img.shields.io/badge/License-ISC-blue.svg" alt="License: ISC"></a>
-  ![Neubrutalist_conceptual_illustration_2026011 (2)](https://github.com/user-attachments/assets/ab9b8d3a-b0ed-4596-99cb-a71d7c8802d4)
-
 </p>
 
 ---
 
 ## Why SafeStar?
+<img src="https://github.com/user-attachments/assets/62a87419-ddaa-4fc0-bb50-90e2c5bf2dfd">
+
 
 You updated a prompt. Tests pass. You deploy. Three days later, users complain the bot is "acting weird."
 
@@ -26,6 +26,7 @@ You updated a prompt. Tests pass. You deploy. Three days later, users complain t
 - 🚨 **Fail the build** if behavior drifts beyond tolerance
 
 No SaaS. No external dependencies. Works with any CLI command.
+<img src="https://github.com/user-attachments/assets/f3a14fec-93f6-42c3-b8e2-35af6b701b5f">
 
 ---
 
@@ -65,6 +66,7 @@ checks:
 ```
 
 > **Note:** SafeStar passes the prompt via `process.env.PROMPT` (or equivalent in your language).
+<img src="https://github.com/user-attachments/assets/8ccd918e-4331-4f2c-981e-c7c9535865f0">
 
 ### 2. Run & Baseline
 
@@ -77,6 +79,7 @@ Happy with the output? Lock it as your gold standard:
 ```bash
 npx safestar baseline refund_bot_test
 ```
+<img src="https://github.com/user-attachments/assets/2021ff79-e094-470e-be19-8490d8d3ae6b">
 
 ### 3. Diff in CI/CD
 
@@ -99,6 +102,7 @@ Violations:
 ```
 
 ---
+<img src="https://github.com/user-attachments/assets/c2c6bbe6-0971-43d3-9845-0a5f0bdd0092">
 
 ## Checks Reference
 
